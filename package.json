@@ -1,0 +1,24 @@
+{
+  "name": "personalbog",
+  "version": "1.0.0",
+  "description": "Personal Blog website project for udacity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -o /landingPage/landing.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jacobwatua/myBlogPage.git"
+  },
+  "author": "jacob watua",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacobwatua/myBlogPage/issues"
+  },
+  "homepage": "https://github.com/jacobwatua/myBlogPage#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "open": "^9.1.0"
+  }
+}
